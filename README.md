@@ -58,22 +58,26 @@ Dans `public/js/app.js`, importer le JavaScript d'AdminLTE :
 ```javascript
 import 'admin-lte/dist/js/adminlte';
 ```
-
-**6. Configuration de la base de données**
+**6. Inclusion des Styles et Scripts dans le Layout (Utilisant Vite):**
+   - Ouvrez le fichier de mise en page (layout) de votre projet Laravel (généralement situé dans le répertoire `resources/views/layouts`) et incluez les styles et scripts AdminLTE avec la syntaxe Vite :
+     ```html
+     @vite(['resources/css/app.css', 'resources/js/app.js'])
+     ```
+**7. Configuration de la base de données**
 
 Si nécessaire, configurer la connexion à la base de données dans le fichier `.env`.
 
-**7. Démarrage du serveur de développement**
+**8. Démarrage du serveur de développement**
 
 ```
 php artisan serve
 ```
 
-**8. Utilisation d'AdminLTE**
+**9. Utilisation d'AdminLTE**
 
 Utiliser les templates et les composants d'AdminLTE dans vos vues Blade.
 
-**9. Adaptation du design**
+**10. Adaptation du design**
 
 Modifier les variables CSS d'AdminLTE ou créer votre propre thème pour adapter le design aux besoins du projet.
 
