@@ -1,6 +1,5 @@
 # Maquettage AdminLTE
 
-## Maquettage AdminLTE
 
 ### Travail à faire
 
