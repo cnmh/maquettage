@@ -119,7 +119,7 @@ Utilisez les templates et les composants d'AdminLTE dans vos vues Blade.
 Modifier les variables CSS d'AdminLTE ou créer votre propre thème pour adapter le design aux besoins du projet.
 
 **Présentation**
-* Présentation : [https://docs.google.com/presentation/d/1A3YdTje6L41ELqJpGhJiJ-NSPIiZntfTNhm7ZwhkK0k/edit?usp=sharing](Réalisation-package-starter)
+* Présentation : [Réalisation-package-starter]( https://docs.google.com/presentation/d/1A3YdTje6L41ELqJpGhJiJ-NSPIiZntfTNhm7ZwhkK0k/edit?usp=sharing)
 
 **Ressources utiles**
 
