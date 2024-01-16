@@ -1,26 +1,3 @@
-<?php
-session_start();
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (isset($_POST['email'])) {
-        $_SESSION['email'] = $_POST['email'];
-        $_SESSION['name'] = "utilisateur";
-
-        if ($_SESSION['email'] === "admin@solicode.com") {
-            $_SESSION['name'] = "admin";
-            header("Location: ../../droit_d'accés\Autorisations\index.php");
-            exit();
-        } else {
-            if ($_SESSION['email'] === "chef-project@solicode.com") {
-                $_SESSION['name'] = "chef de projet";
-            }
-            header("Location: ../../gestion_des_projet/project/index.php");
-            exit();
-        }
-    } else {
-        echo "Email or not set.";
-    }
-}
-?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -52,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 <form method="post">
                     <div class="input-group mb-3">
-                        <input type="email" name="email" value="chef-project@solicode.com" placeholder="Email" class="form-control" autofocus>
+                        <input type="email" name="email" value="admin@solicode.com" placeholder="Email" class="form-control">
                         <div class="input-group-append">
                             <div class="input-group-text"><span class="fas fa-envelope"></span></div>
                         </div>
@@ -77,8 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         </div>
 
                         <div class="col-4">
-                            <button type="submit" class="btn btn-info btn-block">connecter</button>
-                            <!-- <a href="./gestion_des_projet/project/index.php" type="submit" class="btn btn-primary btn-block">connecter</a> -->
+                            <a href="./Actions/index.php" type="submit" class="btn btn-primary btn-block">connecter</a>
                         </div>
 
                     </div>
