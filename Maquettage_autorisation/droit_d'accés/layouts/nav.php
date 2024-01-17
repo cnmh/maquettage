@@ -17,7 +17,7 @@
             <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                 <!-- Image d'utilisateur -->
                 <li class="user-header bg-info">
-                    <img src="../../dist/img/directeur-1.png" class="img-circle elevation-2" alt="Image d'utilisateur">
+                    <img src="../../dist/img/directeur.png" class="img-circle elevation-2" alt="Image d'utilisateur">
                     <p>
                     admin
                     <small>Membre depuis le 28/12/2023</small>
